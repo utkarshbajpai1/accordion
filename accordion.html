@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title></title>
+
+	<link rel="stylesheet" type="text/css" href="accordion.css" >
+	
+	<script type="text/javascript" src="jquery-3.0.0.min.js"></script>
+	<script type="text/javascript" src="jquery-ui.min.js"></script>
+	<script type="text/javascript" src="accordion.js"></script>
+<style type="text/css">
+
+</style>
+
+</head>
+<body>
+
+<div id="pane-container">
+	<div class="pane">
+		
+		<h1> heading1 </h1>
+        <p> this is the pane1 para</p>
+		
+	</div>
+	
+	<div class="pane">
+		
+		<h1> heading2 </h1>
+        <p> this is the pane2 para</p>
+		
+	</div>
+	
+	<div class="pane">
+		
+		<h1> heading3 </h1>
+        <p> this is the pane3 para</p>
+		
+	</div>
+	
+</div>
+
+<script type="text/javascript">
+	$('document').ready(function(){
+		$('#pane-container').accordion({
+			visibleByDefault:2   // something wrong
+		});
+	});
+</script>
+</body>
+
+
+</html>
