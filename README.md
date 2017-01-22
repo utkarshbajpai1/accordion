@@ -1,5 +1,5 @@
 # accordion
-##simple accordion plugin
+##simple accordion plugin for jquery developers
 
 make it visually attractive 
 
